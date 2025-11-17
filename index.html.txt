@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Shuffle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Foodie Shuffle</h1>
+    </header>
+    <main>
+        <h2>สวัสดี! พร้อมที่จะสุ่มเมนูอาหารแล้วหรือยัง?</h2>
+        <button id="shuffle-btn">สุ่มอาหาร</button>
+    </main>
+    <footer>
+        <p>&copy; 2025 Foodie Shuffle</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

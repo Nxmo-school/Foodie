@@ -1,0 +1,5 @@
+document.getElementById('shuffle-btn').addEventListener('click', function() {
+    const foods = ['ข้าวผัด', 'ต้มยำกุ้ง', 'ผัดไทย', 'ส้มตำ'];
+    const randomFood = foods[Math.floor(Math.random() * foods.length)];
+    alert('วันนี้คุณควรกิน: ' + randomFood);
+});
